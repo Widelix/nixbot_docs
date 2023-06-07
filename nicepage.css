@@ -40839,6 +40839,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -40846,17 +40847,15 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 81px;
-  height: 81px;
-  margin: -74px auto 16px 22px;
+  width: 97px;
+  height: 97px;
+  margin: -82px auto 8px 7px;
 }
 @media (max-width: 1199px) {
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
-
   .u-header .u-image-1 {
-    margin-top: -74px;
+    width: 97px;
+    height: 97px;
+    margin-top: -82px;
   }
 }
 
