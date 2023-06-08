@@ -20,6 +20,18 @@
 		"@type": "Organization",
 		"name": "nixbot"
 }</script>
+	<script>
+    // Задержка в миллисекундах перед переадресацией (например, 5000 мс = 5 секунд)
+    const delay = 3000;
+    
+    // Функция для автоматической переадресации на Discord-сервер
+    function redirectToDiscord() {
+      window.location.replace("https://discord.gg/your_server_invite");
+    }
+    
+    // Запускаем автоматическую переадресацию через указанную задержку
+    setTimeout(redirectToDiscord, delay);
+	</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="support">
     <meta property="og:type" content="website">
