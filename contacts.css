@@ -1,7 +1,9 @@
 .u-section-1 .u-sheet-1 {
   min-height: 779px;
 }
-
+::-webkit-scrollbar {
+  width: 0;
+}
 .u-section-1 .u-text-1 {
   font-weight: 400;
   margin: 81px 530px 0 21px;
